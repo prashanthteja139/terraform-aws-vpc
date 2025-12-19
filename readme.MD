@@ -22,14 +22,23 @@ Consistent tagging strategy
 
 Modular, reusable, and environment-friendly
 
+
 📁 Repository Structure
+
 terraform-aws-vpc/
+
 ├── data.tf        # Data sources (AZs, default VPC, main route table)
+
 ├── locals.tf      # Common tags and AZ selection logic
+
 ├── outputs.tf     # Exported VPC & subnet IDs
+
 ├── peering.tf     # Optional VPC peering configuration
+
 ├── variables.tf   # Input variables
+
 ├── vpc.tf         # Core VPC, subnet, IGW, NAT & routing logic
+
 ├── README.md
 
 🧱 Architecture Overview
